@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+### Deployment
+
+The project has been deployed to Netlify. Live You can access it [here](https://665e08696ca68e3021c4998d--profound-kulfi-1a1969.netlify.app/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
