@@ -73,10 +73,8 @@ const TimelineSection = styled.div`
         align-items: end;
     }
 `;
-
-
-
 const index = () => {
+    const educationItem = education.find(item => item.id === 0); // Find the education item with id 0
     return (
         <Container id="education">
             <Wrapper>
@@ -98,7 +96,6 @@ const index = () => {
                             </TimelineItem>
                         ))}
                     </Timeline>
-
                 </TimelineSection>
             </Wrapper>
         </Container>

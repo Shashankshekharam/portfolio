@@ -126,8 +126,35 @@ const Grade = styled.div`
         font-size: 12px;
     }
 `
+const Publication = styled.div`
+  font-size: 16px;
+  font-weight: 400;
+  color: ${({ theme }) => theme.text_primary};
+  margin: 8px 6px;
+  @media only screen and (max-width: 600px) {
+    font-size: 14px;
+    margin: 6px 6px;
+  }
+`;
 
+const Label = styled.span`
+    display: block;
+    font-size: 1em;
+    color: #555;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -22px;
+`;
 
+const PublicationLink = styled.a`
+    color: #854CE6;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+`;
 
 const EducationCard = ({ education }) => {
     return (
@@ -144,6 +171,14 @@ const EducationCard = ({ education }) => {
             <Description>
                 <Span>{education.desc}</Span>
             </Description>
+            {education.publication && (
+                <Publication>
+                    <Label>Publication</Label>
+                    <PublicationLink href={education.publication} target="_blank" rel="noopener noreferrer">
+                        {education.publication}
+                    </PublicationLink>
+                </Publication>
+            )}
         </Card>
     )
 }

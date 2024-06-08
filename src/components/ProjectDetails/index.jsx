@@ -181,6 +181,18 @@ const Button = styled.a`
     }
 `;
 
+const Publication = styled.div`
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  color: ${({ theme }) => theme.text_primary};
+  margin: 8px 6px;
+  @media only screen and (max-width: 600px) {
+    font-size: 14px;
+    margin: 6px 6px;
+  }
+`;
+
 
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
@@ -200,6 +212,14 @@ const index = ({ openModal, setOpenModal }) => {
                     <Image src={project?.image} />
                     <Title>{project?.title}</Title>
                     <Date>{project.date}</Date>
+                    {project.publication && (
+                        <Publication>
+                            <Label>Publication</Label>
+                            <a href="https://ieeexplore.ieee.org/document/9456299" target="_blank" rel="noopener noreferrer">
+                                {project.publication}
+                            </a>
+                        </Publication>
+                    )}
                     <Tags>
                         {project?.tags.map((tag) => (
                             <Tag>{tag}</Tag>

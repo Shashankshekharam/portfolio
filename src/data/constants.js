@@ -216,6 +216,7 @@ export const Bio = {
       college: "Nit Kurukshetra",
       batch: "2019 - 2022",
       grade: "8.0 CGPA",
+      publication: "https://ieeexplore.ieee.org/document/9456299",
       desc: " Master's degree in Computer Application at Nit KKR. I have completed a degree with 8.0 CGPA. ",
       degree: "Master's of Computer Applications (MCA)",
     },
@@ -311,6 +312,7 @@ export const Bio = {
       id: 8,
       title: "Fake news Detection Using ML ",
       date: "Jan 2020",
+      publication: "https://ieeexplore.ieee.org/document/9456299",
       description:
         "Using Hybrid approaches ,classifiers having used : Logistic regression | SVM | Naïve Bayes , to differentiate fake or true news. Further , Hard Voting Classifier are also used to create a final model.",
       image:
@@ -319,6 +321,7 @@ export const Bio = {
       category: "machine learning",
       github: "https://github.com/Shashankshekharam/Fake-news-detection-using-hybrid-approach",
       webapp: "https://github.com/Shashankshekharam/Fake-news-detection-using-hybrid-approach",
+     
         member: [
         {
           name: "Murari Choudhary",
