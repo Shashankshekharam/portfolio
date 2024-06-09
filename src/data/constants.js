@@ -13,7 +13,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges.Always learning! Currently, I'm diving deeper into frontend technology like React JS & With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Shashankshekharam",
     resume:
-      "https://drive.google.com/file/d/1WxBgnr3vpoHP1GqcmuqXYslJD79kfwOj/view?usp=sharing",
+      "https://drive.google.com/file/d/1X1w2H0lUDUYYPxWJ7r9vsm1mUwu9ah9Q/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/shashank-jha-2718a619a/",
     
   };
